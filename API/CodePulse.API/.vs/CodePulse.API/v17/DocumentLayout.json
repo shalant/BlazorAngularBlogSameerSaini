@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Program.cs",
               "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Program.cs",
               "RelativeToolTip": "CodePulse.API\\Program.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAEwBMAAABGAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAiwCUAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T15:56:57.563Z",
               "EditorCaption": ""
@@ -67,8 +67,7 @@
               "RelativeToolTip": "CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T15:51:58.43Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T15:51:58.43Z"
             },
             {
               "$type": "Document",
@@ -80,8 +79,7 @@
               "RelativeToolTip": "CodePulse.API\\Repositories\\Interface\\ICategoryRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T15:50:14.997Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T15:50:14.997Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "CodePulse.API\\Controllers\\CategoriesController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T14:12:48.96Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T14:12:48.96Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "CodePulse.API\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T13:49:18.648Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T13:49:18.648Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\Domain\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T00:44:41.644Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T00:44:41.644Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-10T00:43:01.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-10T00:43:01.49Z"
             }
           ]
         }
