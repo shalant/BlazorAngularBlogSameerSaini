@@ -6,4 +6,5 @@ public interface ICategoryRepository
 {
     // Should only work with Domain Models
     Task<Category> CreateAsync(Category category);
+    Task<IEnumerable<Category>> GetAllCategoriesAsync();
 }

@@ -19,7 +19,7 @@ public class CategoriesController : ControllerBase
         this.categoryRepository = categoryRepository;
     }
 
-    //
+    
     [HttpPost]
     public async Task<IActionResult> CreateCategory(CreateCategoryRequestDto request)
     {
@@ -39,6 +39,27 @@ public class CategoriesController : ControllerBase
             Name = category.Name,
             UrlHandle = category.UrlHandle,
         };
+
+        return Ok(response);
+    }
+
+    // GET: /api/categories
+    [HttpGet]
+    public async Task<IActionResult> GetAllCategories()
+    {
+        var categories = await categoryRepository.GetAllCategoriesAsync();
+        
+        // map domain model to dto
+        var response = new List<CategoryDto>();
+        foreach (var category in categories)
+        {
+            response.Add(new CategoryDto
+            {
+                Id= category.Id,
+                Name = category.Name,
+                UrlHandle = category.UrlHandle,
+            });
+        }
 
         return Ok(response);
     }
