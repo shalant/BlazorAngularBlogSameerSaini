@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "kCFCKJdOHn47Na/kE6KMf7LMbLF2+IRg5EH4lTKEQZs6Go290n3Cud8/PJzBstLg9bKOm8OEhWw62OuFadCO5A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\digdr\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\digdr\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\digdr\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\digdr\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\digdr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\digdr\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
