@@ -63,4 +63,36 @@ public class CategoriesController : ControllerBase
 
         return Ok(response);
     }
+
+    // PUT: https://localhost:7226/api/categories/{id}
+    [HttpPut]
+    [Route("{id:guid}")]
+    public async Task<IActionResult> EditCategory([FromRoute] Guid id, UpdateCategoryRequestDto request)
+    {
+        // Convert Dto to domain model
+        var category = new Category
+        {
+            Id = id,
+            Name = request.Name,
+            UrlHandle = request.UrlHandle
+        };
+
+        category = await categoryRepository.UpdateAsync(category);
+
+        if(category == null)
+        {
+            return NotFound();
+        }
+
+        // convert domain model to dto
+        var response = new CategoryDto
+        {
+            Id = category.Id,
+            Name = category.Name,
+            UrlHandle = category.UrlHandle,
+        };
+
+        return Ok(response);
+
+    }
 }

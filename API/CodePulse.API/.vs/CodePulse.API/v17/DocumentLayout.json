@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\",
+  "WorkspaceRootPath": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\repositories\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\repositories\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\implementation\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\interface\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\models\\dto\\updatecategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\updatecategoryrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\domain\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\domain\\blogpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -37,18 +41,27 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UpdateCategoryRequestDto.cs",
+              "DocumentMoniker": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\UpdateCategoryRequestDto.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\UpdateCategoryRequestDto.cs",
+              "ToolTip": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\UpdateCategoryRequestDto.cs",
+              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\UpdateCategoryRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-21T03:15:45.32Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
+              "ToolTip": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
               "RelativeToolTip": "CodePulse.API\\Repositories\\Implementation\\CategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA4AAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAiwCgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T15:51:58.43Z",
               "EditorCaption": ""
@@ -57,11 +70,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Interface\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\ICategoryRepository.cs",
               "RelativeToolTip": "CodePulse.API\\Repositories\\Interface\\ICategoryRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T15:50:14.997Z",
               "EditorCaption": ""
@@ -70,22 +83,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
+              "DocumentMoniker": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
               "RelativeToolTip": "CodePulse.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAACEAAAAAAAAAAAAUwDUAAAAsAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAvwF4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-10T14:12:48.96Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Data\\AppDbContext.cs",
+              "DocumentMoniker": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Data\\AppDbContext.cs",
               "RelativeToolTip": "CodePulse.API\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -93,11 +106,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Category.cs",
-              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\Category.cs",
+              "DocumentMoniker": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\Category.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\Domain\\Category.cs",
-              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\Category.cs",
+              "ToolTip": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\Category.cs",
               "RelativeToolTip": "CodePulse.API\\Models\\Domain\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,11 +118,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "BlogPost.cs",
-              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
+              "DocumentMoniker": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
-              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
+              "ToolTip": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\Domain\\BlogPost.cs",
               "RelativeToolTip": "CodePulse.API\\Models\\Domain\\BlogPost.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

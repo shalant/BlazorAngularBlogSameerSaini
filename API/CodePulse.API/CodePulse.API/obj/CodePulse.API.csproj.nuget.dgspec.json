@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj": {}
+    "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj": {
+    "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj",
+        "projectUniqueName": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj",
         "projectName": "CodePulse.API",
-        "projectPath": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj",
+        "projectPath": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj",
         "packagesPath": "C:\\Users\\digdr\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\obj\\",
+        "outputPath": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\digdr\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -79,7 +79,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.203/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
