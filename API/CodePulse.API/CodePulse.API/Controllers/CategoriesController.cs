@@ -21,7 +21,7 @@ public class CategoriesController : ControllerBase
 
     
     [HttpPost]
-    public async Task<IActionResult> CreateCategory(CreateCategoryRequestDto request)
+    public async Task<IActionResult> CreateCategory([FromBody]CreateCategoryRequestDto request)
     {
         // map DTO to domain model
         var category = new Category
@@ -64,6 +64,28 @@ public class CategoriesController : ControllerBase
         return Ok(response);
     }
 
+    // GET: https://localhost:7226/api/categories/{id}
+    [HttpGet]
+    [Route("{id:guid}")]
+    public async Task<IActionResult> GetCategoryById([FromRoute] Guid id)
+    {
+        var existingCategory = await categoryRepository.GetById(id);
+        if(existingCategory == null)
+        {
+            return NotFound();
+        }
+
+        var response = new CategoryDto 
+        { 
+            Id = existingCategory.Id,
+            Name = existingCategory.Name,
+            UrlHandle = existingCategory.UrlHandle,
+        };
+
+        return Ok(response);
+    }
+
+
     // PUT: https://localhost:7226/api/categories/{id}
     [HttpPut]
     [Route("{id:guid}")]
@@ -93,6 +115,28 @@ public class CategoriesController : ControllerBase
         };
 
         return Ok(response);
+    }
 
+    // DELETE https://localhost:7226/api/categories/{id}
+    [HttpDelete]
+    [Route("{id:Guid}")]
+    public async Task<IActionResult> DeleteCategory([FromRoute] Guid id)
+    {
+        var category = await categoryRepository.DeleteAsync(id);
+
+        if(category == null)
+        {
+            return NotFound();
+        }
+
+        //convert Domain model to DTO
+        var response = new CategoryDto
+        {
+            Id = category.Id,
+            Name = category.Name,
+            UrlHandle = category.UrlHandle,
+        };
+        
+        return Ok(response);
     }
 }

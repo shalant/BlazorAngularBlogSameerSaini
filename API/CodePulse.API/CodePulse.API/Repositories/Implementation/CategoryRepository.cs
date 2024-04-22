@@ -22,9 +22,29 @@ public class CategoryRepository : ICategoryRepository
         return category;
     }
 
+    public async Task<Category?> DeleteAsync(Guid id)
+    {
+        var existingCategory = await dbContext.Categories.FirstOrDefaultAsync(x => x.Id == id);
+
+        if(existingCategory == null)
+        {
+            return null;
+        }
+
+        dbContext.Categories.Remove(existingCategory);
+        await dbContext.SaveChangesAsync();
+        return existingCategory;
+    }
+
     public async Task<IEnumerable<Category>> GetAllCategoriesAsync()
     {
         return await dbContext.Categories.ToListAsync();
+    }
+
+    public async Task<Category?> GetById(Guid id)
+    {
+        return await dbContext.Categories.FirstOrDefaultAsync(x => x.Id == id);
+
     }
 
     public async Task<Category?> UpdateAsync(Category category)
