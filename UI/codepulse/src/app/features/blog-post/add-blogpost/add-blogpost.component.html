@@ -20,11 +20,26 @@
 
             <div class="mt-3">
                 <label for="content" class="form-label">Content</label>
-                <textarea id="content" name="content" class="form-control" [(ngModel)]="model.content"></textarea>
+                <div class="d-flex flex-row">
+                    <div class="col-6 p-2">
+                        <textarea name="content" id="content" class="form-control" 
+                            style="height: 350px;max-height: 350px;" [(ngModel)]="model.content">
+                        </textarea>
+                    </div>
+                    <div class="col-6 p-2" style="max-height: 350px;overflow-y: scroll;">
+                        <markdown [data]="model.content"></markdown>
+                    </div>
+
+                </div>
             </div>
 
             <div class="mt-3">
                 <label for="featuredImageUrl" class="form-label">Featured Image Url</label>
+                <ng-container *ngIf="model.featuredImageUrl !== ''">
+                    <div>
+                        <img [src]="model.featuredImageUrl" height="100" class="my-2">
+                    </div>
+                </ng-container>
                 <input type="text" id="featuredImageUrl" name="featuredImageUrl" class="form-control"  [(ngModel)]="model.featuredImageUrl">
             </div>
 
@@ -42,6 +57,17 @@
             <div class="form-check mt-3">
                 <input type="checkbox" class="form-check-input" id="isVisible" name="isVisible" [(ngModel)]="model.isVisible">
                 <label for="isVisible" class="form-check-label">Is Visible?</label>
+            </div>
+
+            <div class="mt-3">
+                <label for="categories" class="form-label" >Categories</label>
+                <ng-container *ngIf="categories$ | async as categories">
+                    <select name="categories" id="categories" class="form-control" multiple [(ngModel)]="model.categories">
+                        <option *ngFor="let category of categories" [value]="category.id">
+                            {{category.name}}
+                        </option>
+                    </select>
+                </ng-container>
             </div>
 
             <div class="mt-3">
