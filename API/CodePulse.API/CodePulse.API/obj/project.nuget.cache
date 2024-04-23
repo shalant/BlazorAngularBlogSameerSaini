@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kIaHttULb5qb2jCHRU6J2n1TXuLOA20Ohpq5OxUaalK+wm4LN9Fjp4eVvtrsoefCWAAU/EzjlHwDIJtgHL2Dog==",
+  "dgSpecHash": "r9KepDfijLR16Z1Hj/jIPT5wHoZMXK2Q2BbO6yOVZkT4Po4Ej+1E9fQzkPWIZ1meJg49p9mn+Aqz0/yIhCGW1Q==",
   "success": true,
-  "projectFilePath": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj",
+  "projectFilePath": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\CodePulse.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\digdr\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\digdr\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

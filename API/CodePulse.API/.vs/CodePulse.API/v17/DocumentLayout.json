@@ -1,18 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\",
+  "WorkspaceRootPath": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\implementation\\blogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\blogpostscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\models\\dto\\createblogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\createblogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\repositories\\interface\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\interface\\iblogpostrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\models\\dto\\updateblogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\updateblogpostrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,44 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 304,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CategoriesController.cs",
-              "DocumentMoniker": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\CategoriesController.cs",
-              "ToolTip": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
-              "RelativeToolTip": "CodePulse.API\\Controllers\\CategoriesController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAA9wAAAAAAAAAAA",
+              "Title": "IBlogPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "RelativeToolTip": "CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T15:31:33.907Z"
+              "WhenOpened": "2024-04-23T02:48:54.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateBlogPostRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\UpdateBlogPostRequestDto.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\UpdateBlogPostRequestDto.cs",
+              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\UpdateBlogPostRequestDto.cs",
+              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\UpdateBlogPostRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T02:00:24.204Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BlogPostsController.cs",
-              "DocumentMoniker": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "ToolTip": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
-              "ViewState": "AQIAAHYAAAAAAAAAAAAowIwAAAAJAAAA",
+              "Title": "BlogPostRepository.cs",
+              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "RelativeToolTip": "CodePulse.API\\Repositories\\Implementation\\BlogPostRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAASwBIAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T03:14:46.6Z",
+              "WhenOpened": "2024-04-23T01:38:55.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "CodePulse.API\\Controllers\\CategoriesController.cs",
+              "ViewState": "AQIAAIEAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T15:31:33.907Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "CreateBlogPostRequestDto.cs",
-              "DocumentMoniker": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "ToolTip": "C:\\Coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "RelativeToolTip": "CodePulse.API\\Models\\DTO\\CreateBlogPostRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAqAAAA",
+              "Title": "BlogPostsController.cs",
+              "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
+              "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostsController.cs",
+              "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
+              "RelativeToolTip": "CodePulse.API\\Controllers\\BlogPostsController.cs",
+              "ViewState": "AQIAAMgAAAAAAAAAAAAiwOgAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T03:15:10.207Z"
+              "WhenOpened": "2024-04-22T03:14:46.6Z",
+              "EditorCaption": ""
             }
           ]
         }

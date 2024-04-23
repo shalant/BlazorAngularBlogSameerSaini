@@ -10,12 +10,12 @@ import { UpdateCategoryRequest } from '../models/update-category-request.model';
   templateUrl: './edit-category.component.html',
   styleUrls: ['./edit-category.component.css']
 })
+
 export class EditCategoryComponent implements OnInit, OnDestroy {
 
   id: string | null = null;
   paramsSubscription?: Subscription;
   editCategorySubscription?: Subscription;
-
   category?: Category;
 
   constructor(private route: ActivatedRoute,
