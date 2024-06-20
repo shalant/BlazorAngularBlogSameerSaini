@@ -62,8 +62,7 @@
               "RelativeToolTip": "CodePulse.API\\Program.cs",
               "ViewState": "AQIAABkAAAAAAAAAAAAAADEAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T15:45:00.163Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T15:45:00.163Z"
             },
             {
               "$type": "Document",
@@ -73,7 +72,7 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\ImagesController.cs",
               "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\ImagesController.cs",
               "RelativeToolTip": "CodePulse.API\\Controllers\\ImagesController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAACgAAAAcAAAA",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAqwFQAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-24T03:22:18.058Z",
               "EditorCaption": ""
@@ -88,8 +87,7 @@
               "RelativeToolTip": "CodePulse.API\\Data\\AppDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T03:19:14.473Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T03:19:14.473Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "CodePulse.API\\Models\\Domain\\BlogImage.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-24T03:14:20.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-24T03:14:20.475Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "CodePulse.API\\Repositories\\Implementation\\ImageRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T03:10:08.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T03:10:08.941Z"
             },
             {
               "$type": "Document",
@@ -127,8 +123,7 @@
               "RelativeToolTip": "CodePulse.API\\Repositories\\Interface\\IImageRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-20T03:08:43.707Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T03:08:43.707Z"
             },
             {
               "$type": "Document",
@@ -140,8 +135,7 @@
               "RelativeToolTip": "CodePulse.API\\Repositories\\Interface\\IBlogPostRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T02:48:54.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-23T02:48:54.475Z"
             },
             {
               "$type": "Document",

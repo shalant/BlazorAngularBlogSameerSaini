@@ -4,8 +4,18 @@
     </div>
     <div class="card-body">
         <div class="d-flex flex-md-row flex-sm-column flex-wrap">
-            <div class="col-8 p-4">
-
+            <div class="col-8 p-4" style="overflow-y: scroll;">
+                <ng-container *ngIf="images$ | async as images">
+                    <div class="d-flex flex-wrap">
+                        <div *ngFor="let image of images" 
+                            (click)="selectImage(image)"
+                            class="me-1 bg-white d-flex align-items-center flex-column border p-3"
+                            style="min-width: 100px; justify-content: center; cursor: pointer;">
+                            <img [src]="image.url" [title]="image.title" style="height: 100px;">
+                            <span class="mt-1">{{image.title}}</span>
+                        </div>
+                    </div>
+                </ng-container>
             </div>
             <div class="col-4 p-4 bg-light">
                 <h5>Upload Image</h5>

@@ -6,6 +6,7 @@ import { BlogPost } from '../models/blog-post.model';
 import { CategoryService } from '../../category/services/category.service';
 import { Category } from '../../category/models/category.model';
 import { UpdateBlogPost } from '../models/update-blog-post.model';
+import { ImageService } from 'src/app/shared/components/image-selector/image.service';
 
 @Component({
   selector: 'app-edit-blogpost',
@@ -28,7 +29,8 @@ export class EditBlogpostComponent implements OnInit, OnDestroy {
   constructor(private route: ActivatedRoute,
     private blogPostService: BlogPostService,
     private categoryService: CategoryService,
-    private router: Router) {
+    private router: Router,
+  private imageService: ImageService) {
     
   }
   
@@ -50,6 +52,13 @@ export class EditBlogpostComponent implements OnInit, OnDestroy {
               }
             });
         }
+
+        this.imageService.onSelectImage()
+          .subscribe({
+            next: (response) => {
+              
+            }
+          })
       }
     })
   }
