@@ -25,6 +25,7 @@ export class EditBlogpostComponent implements OnInit, OnDestroy {
   updateBlogPostSubscription?: Subscription;
   getBlogPostSubscription?: Subscription;
   deleteBlogPostSubscription?: Subscription;
+  imageSelectSubscription?: Subscription;
 
   constructor(private route: ActivatedRoute,
     private blogPostService: BlogPostService,
@@ -53,10 +54,13 @@ export class EditBlogpostComponent implements OnInit, OnDestroy {
             });
         }
 
-        this.imageService.onSelectImage()
+        this.imageSelectSubscription = this.imageService.onSelectImage()
           .subscribe({
             next: (response) => {
-              
+              if(this.model) {
+                this.model.featuredImageUrl = response.url;
+                this.isImageSelectorVisible = false;
+              }
             }
           })
       }
@@ -112,5 +116,6 @@ export class EditBlogpostComponent implements OnInit, OnDestroy {
     this.updateBlogPostSubscription.unsubscribe();
     this.getBlogPostSubscription.unsubscribe();
     this.deleteBlogPostSubscription.unsubscribe();
+    this.imageSelectSubscription.unsubscribe();
   }
 }
