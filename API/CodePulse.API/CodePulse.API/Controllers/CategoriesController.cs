@@ -2,6 +2,7 @@
 using CodePulse.API.Models.Domain;
 using CodePulse.API.Models.DTO;
 using CodePulse.API.Repositories.Interface;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,7 +20,6 @@ public class CategoriesController : ControllerBase
         this.categoryRepository = categoryRepository;
     }
 
-    
     [HttpPost]
     public async Task<IActionResult> CreateCategory([FromBody]CreateCategoryRequestDto request)
     {
@@ -45,6 +45,7 @@ public class CategoriesController : ControllerBase
 
     // GET: /api/categories
     [HttpGet]
+    [Authorize]
     public async Task<IActionResult> GetAllCategories()
     {
         var categories = await categoryRepository.GetAllCategoriesAsync();
