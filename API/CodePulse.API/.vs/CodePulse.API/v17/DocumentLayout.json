@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\repositories\\interface\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\repositories\\interface\\itokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|c:\\users\\digdr\\documents\\coding\\blazorangularblogsameersaini\\api\\codepulse.api\\codepulse.api\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B372F07B-0A76-4002-B964-71A0CFCB5B70}|CodePulse.API\\CodePulse.API.csproj|solutionrelative:codepulse.api\\models\\dto\\loginresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,15 +34,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 363,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CategoriesController.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\CategoriesController.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\CategoriesController.cs",
@@ -50,12 +54,11 @@
               "RelativeToolTip": "CodePulse.API\\Controllers\\CategoriesController.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAiwHwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-25T02:34:21.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-25T02:34:21.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TokenRepository.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Implementation\\TokenRepository.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Implementation\\TokenRepository.cs",
@@ -67,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ITokenRepository.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Repositories\\Interface\\ITokenRepository.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Repositories\\Interface\\ITokenRepository.cs",
@@ -79,15 +82,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "LoginResponseDto.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\LoginResponseDto.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Models\\DTO\\LoginResponseDto.cs",
               "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Models\\DTO\\LoginResponseDto.cs",
               "RelativeToolTip": "CodePulse.API\\Models\\DTO\\LoginResponseDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T19:54:39.56Z"
+              "WhenOpened": "2024-06-24T19:54:39.56Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -97,14 +101,14 @@
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\AuthController.cs",
               "RelativeToolTip": "CodePulse.API\\Controllers\\AuthController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAmwBwAAAAMAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAewBwAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T17:13:26.463Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BlogPostsController.cs",
               "DocumentMoniker": "C:\\Users\\digdr\\Documents\\coding\\BlazorAngularBlogSameerSaini\\API\\CodePulse.API\\CodePulse.API\\Controllers\\BlogPostsController.cs",
               "RelativeDocumentMoniker": "CodePulse.API\\Controllers\\BlogPostsController.cs",
