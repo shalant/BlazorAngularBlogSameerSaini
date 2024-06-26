@@ -21,6 +21,7 @@ public class CategoriesController : ControllerBase
     }
 
     [HttpPost]
+    [Authorize(Roles = "Writer")]
     public async Task<IActionResult> CreateCategory([FromBody]CreateCategoryRequestDto request)
     {
         // map DTO to domain model
@@ -45,7 +46,6 @@ public class CategoriesController : ControllerBase
 
     // GET: /api/categories
     [HttpGet]
-    [Authorize]
     public async Task<IActionResult> GetAllCategories()
     {
         var categories = await categoryRepository.GetAllCategoriesAsync();
@@ -90,6 +90,7 @@ public class CategoriesController : ControllerBase
     // PUT: https://localhost:7226/api/categories/{id}
     [HttpPut]
     [Route("{id:guid}")]
+    [Authorize(Roles = "Writer")]
     public async Task<IActionResult> EditCategory([FromRoute] Guid id, UpdateCategoryRequestDto request)
     {
         // Convert Dto to domain model
@@ -121,6 +122,7 @@ public class CategoriesController : ControllerBase
     // DELETE https://localhost:7226/api/categories/{id}
     [HttpDelete]
     [Route("{id:Guid}")]
+    [Authorize(Roles = "Writer")]
     public async Task<IActionResult> DeleteCategory([FromRoute] Guid id)
     {
         var category = await categoryRepository.DeleteAsync(id);
